@@ -7,7 +7,7 @@ on:
     branches: [main]
 
 env:
-  AWS_REGION: ap-south-1
+  AWS_REGION: ap-south-2
   ECR_BACKEND_REPO: snake-game-backend
   ECR_FRONTEND_REPO: snake-game-frontend
 
