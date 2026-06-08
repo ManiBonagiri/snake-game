@@ -51,7 +51,7 @@ const GameBoard = ({ snake, food, gridSize, gameOver, running }) => {
               width={CELL - 2}
               height={CELL - 2}
               rx={5}
-              fill="#4ade80"
+              fill="#f59e0b"
             />
             {/* Eyes */}
             <circle cx={head.x * CELL + 7} cy={head.y * CELL + 7} r={2.5} fill="#0d1117" />
@@ -74,7 +74,7 @@ const GameBoard = ({ snake, food, gridSize, gameOver, running }) => {
             cy={food.y * CELL + 4}
             rx={2}
             ry={4}
-            fill="#4ade80"
+            fill="#f59e0b"
           />
         </g>
 
